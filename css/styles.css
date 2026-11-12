@@ -1,0 +1,211 @@
+
+/* AirAsia Rewards Website Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #e32526;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Main Content */
+main {
+    background-color: white;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #e32526;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Buttons */
+button, .btn {
+    background-color: #e32526;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+button:hover, .btn:hover {
+    background-color: #b71c1c;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+/* Gift Card List */
+.gift-card-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 25px 0;
+}
+
+/* Rest of the new gift card CSS continues here */
+
+/* Gift Card Image Styling */
+.gift-card img {
+    width: 100%;
+    height: 130px;
+    object-fit: contain;
+}
+
+/* Gift Card Appearance */
+.gift-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.gift-card a {
+    color: #e32526;
+    text-decoration: none;
+}
+
+.gift-card h3 {
+    margin: 12px 0;
+}
+
+.gift-card p {
+    font-weight: bold;
+}
+
+/* Gift Card Details Page */
+
+.card-details {
+    text-align: center;
+    padding: 20px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.card-details img {
+    width: 100%;
+    max-width: 250px;
+    height: 160px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.card-details h3 {
+    color: #e32526;
+    font-size: 24px;
+}
+
+.card-details p {
+    font-size: 16px;
+    margin: 12px 0;
+}
+
+/* Navigation Buttons */
+
+.card-actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Show only the selected gift card */
+
+.card-details {
+    display: none;
+}
+
+.card-details:target {
+    display: block;
+}
+
+/* Hide all update forms by default */
+form.update-form {
+    display: none;
+}
+
+/* Show only the selected update form */
+form.update-form:target {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Keep button text visible */
+a.btn,
+a.btn:visited,
+a.btn:hover,
+a.btn:focus {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Improve header navigation */
+nav {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+nav a.btn {
+    display: inline-block;
+    margin: 5px;
+    background-color: #e92327;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+nav a.btn:hover {
+    background-color: #b71920;
+}

@@ -1,0 +1,67 @@
+
+HW3 - AirAsia Rewards Gift Card Management
+AI Assistance Disclosure
+
+AI Tool Used:
+ChatGPT (OpenAI)
+
+Purpose of AI Assistance:
+AI was used as a development assistant to explain assignment requirements, provide implementation guidance, troubleshoot errors, and help prepare testing and documentation.
+
+Areas of Assistance:
+
+1. Database Setup
+- Guidance on creating SQLite ACCOUNT and GIFTCARD tables.
+- Assistance preparing schema.sql and seed.sql.
+- Guidance verifying the required seed records.
+
+2. PHP and PDO
+- Assistance creating a reusable database connection.
+- Guidance implementing database-driven gift card pages.
+- Assistance with prepared SQL statements.
+
+3. CRUD Functionality
+- Guidance implementing Create, Read, Update, and Delete.
+- Assistance with server-side validation and form processing.
+- Guidance implementing delete confirmation.
+
+4. Website Design
+- Assistance preserving the existing HW2 layout.
+- CSS suggestions for improving button and navigation visibility.
+
+5. Testing and Debugging
+- Assistance creating five automated validation tests.
+- Guidance performing eight manual test cases.
+- Troubleshooting PHP server and file-loading errors.
+
+6. Documentation
+- Assistance preparing README.md.
+- Assistance documenting use case traceability and test results.
+
+Examples of AI Prompts:
+- How do I connect PHP to a SQLite database using PDO?
+- How can I display gift cards dynamically from SQLite?
+- How do I implement gift card CRUD operations?
+- How can I validate gift card information before saving?
+- How do I troubleshoot a PHP page that is not loading?
+- How do I document my manual and automated tests?
+
+Verification:
+The application was tested through GitHub Codespaces.
+
+- Database connection: Successful
+- Create operation: Passed
+- Read operation: Passed
+- Update operation: Passed
+- Delete operation: Passed
+- Automated validation tests: 5 passed, 0 failed
+- Manual test cases: 8 passed, 0 failed
+
+AI-generated suggestions were incorporated into the application and checked through execution and testing.
+
+
+AI Suggestion Tested and Revised:
+
+ChatGPT assisted with creating the gift card image mapping in card-list.php. After implementing the suggested changes, the application displayed an HTTP 500 error because an extra closing bracket (];) remained in the PHP code. I reviewed the code, removed the duplicate bracket, and ran a PHP syntax check using php -n -l card-list.php. The syntax check passed, and I refreshed the application to verify that the gift card images displayed correctly.
+
+This demonstrated that AI-generated suggestions still required manual review, testing, and corrections before being accepted.
